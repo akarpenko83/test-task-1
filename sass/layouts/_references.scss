@@ -1,0 +1,53 @@
+.references {
+    display: flex;
+    padding-bottom: 92px;
+}
+.references__container {
+    width: 805px;
+}
+.references__title {
+@extend %section-title;
+
+}
+.pros {
+    display: flex;
+    justify-content: space-between;
+}
+.pros__card {
+    @extend %list;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px;
+    // justify-content: center;
+    width: 249px;
+    height: 293px;
+    border-radius: 22px;
+    background-color: #fff;
+    box-shadow: (0px 69.5875px 139.175px rgba(0, 0, 0, 0.08)), (0px 14.65px 43.95px rgba(0, 0, 0, 0.06));;
+        &--center {
+        padding-left: 39px;
+        padding-right: 38px;
+}
+}
+.pros__photo {
+    margin-bottom: 12px;
+}
+.pros__name {
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;    
+    color: #000000;
+}
+.pros__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: #000000;
+    &--right {
+        font-size: 22px;
+        line-height: 1.18;
+    }
+}
